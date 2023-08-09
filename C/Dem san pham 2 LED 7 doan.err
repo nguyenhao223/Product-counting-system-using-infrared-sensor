@@ -1,0 +1,6 @@
+*** Error 24 "D:\Program Files (x86)\PICC\Devices\16F877A.h" Line 11(9,19): Unknown device type    -- Try PCM
+      1 Errors,  0 Warnings.
+Build Failed.
+      Memory usage:   ROM=7%      RAM=4% - 8%
+      0 Errors,  0 Warnings.
+Build Successful.

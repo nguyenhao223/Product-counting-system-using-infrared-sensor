@@ -1,0 +1,91 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     so_dem
+021     so_dem_nho
+022     ty_le_cb1
+023.0   muc1
+023.1   muc2
+024     ty_le_cb2
+025     cham
+026     nho_cb1
+027     nho_cb2
+028     @TRIS_C
+029-02C @SFTOI.P1
+029     main.@SCRATCH1
+029     encoder_xu_ly.@SCRATCH1
+02A     @DIV88.P1
+02A-02D @MULFF.P2
+02A-02B @ITOF.P3
+02B     @DIV88.P1
+02C     @DIV88.@SCRATCH1
+02E-031 @MULFF.P1
+032     @MULFF.@SCRATCH1
+033     @MULFF.@SCRATCH2
+034     @MULFF.@SCRATCH3
+035     @MULFF.@SCRATCH4
+036     @MULFF.@SCRATCH5
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  ma7doan.call
+000008  ma7doan.data
+000012  @DIV88
+000027  @ITOF
+000044  @MULFF
+0000B9  @SFTOI
+0000D8  encoder_xu_ly
+0000FD  main
+0000FD  @cinit1
+00010E  @cinit2
+
+Project Directory:
+    E:\1 LDNam P\Nhu Y 2020\Du lieu\Bo mach\BM000057\Dem 2 so PIC vao ra tren mot cong co Relay\C\
+
+Project Files:
+    Dem san pham 2 LED 7 doan.c                             [14-Nov-21 18:38  CRC=214A5C66]
+    Dem san pham 2 LED 7 doan.h                             [18-Oct-20 14:09  CRC=E9721F7D]
+    D:\Program Files (x86)\PICC\Devices\16F877A.h           [22-Oct-15 10:30  CRC=B168AC0E]
+
+Source signature=6D8DD3FF
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=1834
+
+Units:
+    Dem san pham 2 LED 7 doan (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   Dem san pham 2 LED 7 doan.xsym
+    Errors:      Dem san pham 2 LED 7 doan.err
+    Ext Symbols: Dem san pham 2 LED 7 doan.esym
+    INHX8:       Dem san pham 2 LED 7 doan.hex
+    Symbols:     Dem san pham 2 LED 7 doan.sym
+    List:        Dem san pham 2 LED 7 doan.lst
+    Debug/COFF:  Dem san pham 2 LED 7 doan.cof
+    Project:     Dem san pham 2 LED 7 doan.ccspjt
+    Call Tree:   Dem san pham 2 LED 7 doan.tre
+    Statistics:  Dem san pham 2 LED 7 doan.STA

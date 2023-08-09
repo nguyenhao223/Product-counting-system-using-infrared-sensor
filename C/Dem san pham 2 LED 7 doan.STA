@@ -1,0 +1,54 @@
+
+ROM used:   614/8192 (7%)
+            614/8192 (7%) including unused fragments
+
+            0.7 Average locations per line
+            6.7 Average locations per statement
+
+RAM used:   15/368 (4%) at main() level
+            28/368 (8%) worst case
+
+Stack used: 1 worst case (1 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  126    92 100  Dem san pham 2 LED 7 doan.c
+   20     0   0  Dem san pham 2 LED 7 doan.h
+  674     0   0  D:\Program Files (x86)\PICC\Devices\16F877A.h
+----- -----
+  820    92 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     14   2    0             @const604
+0    361  59    1   1841  9.3  main
+0     21   3    3             @DIV88
+0     29   5    2             @ITOF
+0    117  19   13             @MULFF
+0     31   5    4             @SFTOI
+0     37   6    1    505  4.3  encoder_xu_ly
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               2
+    Statements              92
+    Comments                169
+    Volume (V)              2656
+    Difficulty (D)          13.0
+    Effort to implement (E) 34560
+    Time to implement (T)   32 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   21
+    Maintainability (MI)    119
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   610  1434  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
